@@ -1,0 +1,4 @@
+<!--pages/readdetail/readdetail.wxml-->
+<view class='imgpath-view'>
+  <image mode='widthFix' wx:for="{{imgpath}}" src="{{item}}" ></image>
+</view>

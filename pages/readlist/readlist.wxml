@@ -1,0 +1,39 @@
+<!--pages/readlist/readlist.wxml-->
+
+<!-- 列表页 -->
+<!-- view => div -->
+<!-- text => span -->
+<!-- 循环里面有个默认的变量item -->
+<!-- 
+<view wx:for="{{list}}">
+{{item}}
+</view> 
+-->
+<view class='container'>
+  <view class='book-head'>
+    <view class='book-profile'>
+      <view class='book-cover'>
+        <image src='{{book.cover}}'></image>
+      </view>
+      <view class='book-info'>
+        <view class='book-title'>{{book.title}}</view>
+        <text>作者：{{book.author}}</text>
+        <text>状态：{{book.serial}}</text>
+        <text>更新：{{book.up_time}}</text>
+      </view>
+    </view>
+    <view class='book-des'>
+    {{book.description}}
+    </view>
+  </view>
+</view>
+
+<view class='book-body'>
+  <view class='readtitle'>章节列表</view>
+  <view class='readlist'>
+    <navigator url='/pages/readdetail/readdetail?raw_id={{book.raw_id}}&raw_key={{item.raw_key}}' hover-class='none' wx:for="{{readlist}}">{{item.title}}</navigator>
+       
+  </view>
+</view>
+
+

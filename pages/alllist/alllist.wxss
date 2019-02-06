@@ -1,0 +1,34 @@
+/* pages/alllist/alllist.wxss */
+.title{
+  font-size: 3em;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+}
+.booklist-info{
+  box-sizing: border-box;
+  display: block;
+}
+.booklist-info navigator{
+  display: block;
+  float: left;
+  margin: 20 -20rpx;
+  padding: 20rpx;
+  border-bottom: 1px solid #ddd;
+}
+.booklist-info image{
+  width:300rpx;
+  height: 400rpx;
+  float: left;
+}
+.book-info{
+  overflow: hidden;
+  padding-left: 30rpx;
+}
+.book-info text{
+  display: block;
+  line-height: 2;
+}
+.book-title{
+  padding-bottom: 5px;
+  font-size: 1.3em;
+}

@@ -1,0 +1,55 @@
+/* pages/readlist/readlist.wxss */
+.book-head{
+  box-sizing: border-box;
+  margin: 0 -20rpx;
+  padding: 20rpx;
+  border-bottom: 1px solid #ddd;
+}
+.book-profile{
+  overflow: hidden
+}
+.book-cover{
+  padding-right: 20rpx;
+  float: left;
+}
+.book-cover image{
+  width:300rpx;
+  height: 400rpx;
+}
+.book-info{
+  overflow: hidden;
+}
+.book-info text{
+  display: block;
+  line-height: 2;
+}
+.book-title{
+  padding-bottom: 5px;
+  font-size: 1.3em;
+}
+.book-des{
+  padding-top: 5px;
+  text-indent: 2em;
+  line-height: 1.6;
+}
+
+.readtitle{
+  padding: 8px 0;
+  font-weight: 600;
+  font-size: 1.1em;
+}
+.readlist{
+  overflow: hidden;
+  padding-bottom: 40rpx;
+}
+.readlist navigator{
+  float: left;
+  box-sizing: border-box;
+  margin-bottom: 3px;
+  padding-left: 5px;
+  width: 33.3%;
+  height: 1.5em;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}

@@ -1,0 +1,16 @@
+<!--pages/alllist/alllist.wxml-->
+<view class='title'>
+    漫画列表
+  </view>
+<view class='book-list'>
+  <view class='booklist-info'wx:for="{{booklist}}">
+    <navigator  hover-class='none'  url='/pages/readlist/readlist?raw_id={{item.raw_id}}'>
+      <image mode='widthFix' src="{{item.cover}}"></image>
+      <view class='book-info'>
+        <view class='book-title'>{{item.title}}</view>
+        <text>作者：{{item.author}}</text>
+        <text>状态:{{item.serial}}</text> 
+      </view>
+    </navigator>
+  </view>
+</view>

@@ -1,0 +1,6 @@
+/* pages/readdetail/readdetail.wxss */
+.imgpath-view image{
+  display: block;
+  width: 100%;
+  
+}

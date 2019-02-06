@@ -1,0 +1,10 @@
+{
+  "pages":[
+    "pages/alllist/alllist",
+    "pages/readlist/readlist",
+    "pages/readdetail/readdetail"
+  ],
+  "window":{
+    "navigationBarBackgroundColor":"#069"
+  }
+}
